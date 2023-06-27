@@ -37,7 +37,6 @@ namespace OrdenNum
             while (nodoActual.Siguiente != null)
             {
                 nodoActual = nodoActual.Siguiente;
-
             }
             Nodo temp = new Nodo();
             temp.Valor = valor;
